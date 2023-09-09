@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+section,
+footer {
+  background-color: var(--bg-color);
+}
+
+:root {
+  --white-color: #ffffff;
+  --black-color: #1e1e1e;
+  --blue-color: #2e4fd7;
+  --bg-color: #052825;
+  --icon-color: #e7ebfc;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav__menu ul {
+  gap: 31px;
+}
+
+.fa-solid,
+.fas {
+  font-size: 20px;
+}
+
+.btn__book {
+  color: var(--white-color);
+  font-size: 15px;
+  background-color: #2e4fd7;
+  border: none;
+}
+
+.btn__book a {
+  color: var(--white-color);
+  padding: 5px 10px 5px 20px;
+}
+
+.btn__book i {
+  padding-right: 20px;
+}
+
+.nav__content {
+  height: 80px;
+}
+
+@media (max-width: 576px) {
+  .i_right {
+    padding: 5px 0 5px 10px;
+  }
+  .btn__book i {
+    padding-right: 10px;
+  }
+}
+
+.headline__p {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.headline h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.home {
+  padding-top: 145px;
+}
+
+.btn__meet {
+  color: var(--white-color);
+  font-size: 15px;
+  background-color: #2e4fd7;
+  border: none;
+}
+
+.btn__meet a {
+  color: var(--white-color);
+  padding: 15px 10px 15px 25px;
+}
+
+.home {
+  padding-bottom: 146px;
+}
+
+.btn__meet i {
+  padding-right: 23px;
+}
+@media (max-width: 1200px) {
+  .btn__meet i {
+    padding-right: 12px;
+  }
+}
+
+.headline h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.statement h5 {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.headline__footer {
+  padding-top: 84px;
+}
+
+@media (max-width: 1124px) {
+  .headline__p {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .headline__p {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 382px) {
+  .headline__p {
+    font-size: 37px;
+  }
+}
+
+.headline__text p {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.headline__text h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.high-quality {
+  font-size: 52px;
+}
+
+.text__c h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.box1 {
+  width: 530px;
+  height: 350px;
+  background-color: #e7ebfc;
+}
+
+@media (max-width: 992px) {
+  .box1 {
+    width: 100%;
+  }
+}
+
+.heaad {
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: -0.94px;
+  font-weight: 900;
+}
+
+.headline__sample {
+  padding-bottom: 111px;
+}
+
+.headline__mode {
+  padding-top: 111px;
+  padding-bottom: 115px;
+}
+
+.first p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.story {
+  padding-top: 119px;
+  padding-left: 95px;
+  padding-bottom: 116px;
+  margin-top: 115px;
+}
+
+.story_img {
+  width: 380px;
+  height: 420px;
+  margin-right: -12px;
+}
+
+.content h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 900;
+  letter-spacing: -0.76px;
+}
+
+.content h4 {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.content button {
+  background-color: transparent;
+}
+
+.success_story {
+  overflow-x: hidden;
+}
+
+@media (max-width: 992px) {
+  .story {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .story {
+    padding: 0 0 0 0;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .content h4 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .content h4 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.about__p p {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+}
+
+.pricing {
+  padding-bottom: 115px;
+}
+
+.about {
+  padding-top: 64px;
+}
+
+.img__box {
+  width: 72px;
+  height: 72px;
+}
+
+.img__box img {
+  position: absolute;
+  top: 23px;
+  left: 25px;
+}
+
+.posit {
+  padding-left: 16px;
+  padding-top: 27px;
+}
+
+.about_card p {
+  font-size: 24px;
+  padding-bottom: 4px;
+  margin: 0;
+  padding-top: 16px;
+  font-weight: 700;
+}
+
+.about_card h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+
+.cards{
+  margin-top: 64px;
+}
